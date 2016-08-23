@@ -2,20 +2,20 @@ var axios = require("axios");
 
 export class CookiesServices {
 
-	private baseURI = "https://intra.epitech.eu";
+	private baseURI = "http://127.0.0.1:9000";
 	private dataFormatURI = "?format=json";
 
 	constructor() {
 
 	}
 
-	public getUserProfile(login: string) {
+	public getUserProfile(login: string): Promise<any> {
 		let deferred = this.performQuery("GET", `/user/${login}`, null);
 		return deferred;
 	}
 
 	protected performQuery(method: string, url: string, data: any): Promise<any> {
-		url = `${this.baseURI}${url}${this.dataFormatURI}`;
+		url = `${this.baseURI}${url}`;
 		
 		return new Promise<any>((resolve, reject) => {
 			if (method == "GET") {
