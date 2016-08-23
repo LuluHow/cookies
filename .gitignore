@@ -1,5 +1,5 @@
-node_modules
-dist
-.tmp
-.sass-cache
-app/bower_components
+cookies_client/node_modules
+cookies_client/dist
+cookies_client/.tmp
+cookies_client/.sass-cache
+cookies_client/app/bower_components

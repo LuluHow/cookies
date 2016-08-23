@@ -16,6 +16,7 @@ export class CookiesServices {
 
 	protected performQuery(method: string, url: string, data: any): Promise<any> {
 		url = `${this.baseURI}${url}${this.dataFormatURI}`;
+		
 		return new Promise<any>((resolve, reject) => {
 			if (method == "GET") {
 				axios({
