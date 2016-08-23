@@ -1,0 +1,30 @@
+{
+  "name": "cookies_api",
+  "version": "0.0.1",
+  "description": "API for cookies",
+  "main": "server.ts",
+  "scripts": {
+    "grunt": "grunt",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuluHow/cookies/cookies_api"
+  },
+  "author": "Ludovic Horem",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2",
+    "grunt-serve": "^0.1.6",
+    "grunt-ts": "^6.0.0-beta.3",
+    "grunt-tslint": "^3.2.0",
+    "tslint": "^3.15.1",
+    "typescript": "^1.8.10"
+  }
+}
