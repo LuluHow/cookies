@@ -13,5 +13,8 @@
     "webpack": "^1.13.2",
     "webpack-bundle-tracker": "0.0.93",
     "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "axios": "^0.13.1",
   }
 }
