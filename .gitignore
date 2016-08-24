@@ -2,7 +2,7 @@ cookies_client/node_modules
 cookies_client/dist
 cookies_client/.tmp
 cookies_client/.sass-cache
-cookies_client/app/bower_components
+cookies_client/bower_components
 cookies_api/node_modules
 cookies_api/.tscache
 cookies_api/*.tmp.txt
